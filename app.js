@@ -21,7 +21,6 @@ function timer(){
 var status="play"
 function play(){
 	interval=setInterval(timer,10)
-   document.getElementById("play").disabled=true; 
 }
 function stop(){
 	clearInterval(interval)  
